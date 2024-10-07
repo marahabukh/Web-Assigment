@@ -1,0 +1,114 @@
+.list{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr ; 
+  gap:15px ;
+  vertical-align: top;
+  padding:20px 0 ;
+ 
+  }
+  .list div{
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    padding:10px;
+    box-shadow:0 2px 6px rgba(0,0,0,.1) ;
+    text-align: center;
+  }
+  .minue{
+    display:flex;
+    flex-direction: column;
+  }
+  .photo1{
+    width:240px; 
+ 
+    border-radius: 4px;
+  transition-duration: 3s;
+    
+    margin:20px;
+  }
+  .photo1:hover{
+    border-radius: 100px;
+    height: 30;
+    transform:scale(1.2) ;
+    
+
+  }
+  .photo2{
+    width:250px; 
+ 
+    border-radius: 4px;
+     transition-duration: 3s;
+    
+    
+  }
+ .photo2:hover{
+    border-radius: 100px;
+    height: 30;
+    transform: scale(1.2) ;
+  }
+    
+  .photo3{
+    width:250px; 
+   
+    border-radius: 4px;
+    transition-duration: 3s;
+  }
+  .photo3:hover{
+    border-radius: 100px;
+    height: 30;
+  
+    transform: scale(1.2) ;
+  }
+  .picture{
+    display: inline-block;
+  }
+  button{
+    border-radius: 10px;
+    background-color:darkgrey ;
+
+  }
+  .links{
+    display: grid;
+    grid-template-columns: 120px 120px 100px;
+    justify-content: center;
+  }
+  .first{
+    background-color: antiquewhite;
+    height: 14px;
+  }
+  
+  .last{
+    align-items: center;
+     text-align: center;
+  }
+  .input{
+    border-radius: 20px;
+  }
+  .iwanna{
+    align-items: center;
+    text-align: center;
+  }
+  .final{
+    align-items: center;
+    text-align: center;
+  }
+    .aboutme{
+      align-items: center;
+      text-align: center;
+
+    }
+    body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  margin-top: 20px;
+  background-color: #f0f0f0;
+}
+
+.card {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 900px;
+}
