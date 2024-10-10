@@ -1,0 +1,168 @@
+.mainclass{
+display:flex;
+flex-direction: row;
+gap:20px;
+justify-content: center;
+align-items: center ;
+margin:auto ;
+border-radius: 20px;
+background-color: #ffffff;;
+border-radius: 20px;
+
+
+}
+body{
+  background-color: #faf9f9;
+  height: 100vh; 
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.right{
+  width: 270px;
+  height: 450px ;
+  padding-left:0px;
+  overflow: hidden; 
+  
+}
+.left{
+  width: 270px;
+  height: 450px;
+  overflow: hidden; 
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+   
+  
+
+}
+ 
+.img{
+  
+  object-fit: cover;
+  height: 450px ;
+  
+ 
+
+}
+h1{
+  color: #999;
+  
+  font-size: 13px;
+  letter-spacing: 3px ; 
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:weight;
+  font-style:normal;
+  padding-top:10px ;
+  padding-bottom: 2px;
+
+}
+h2 {
+
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight:weight;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+    font-size: 25px;
+    padding-top:0px;
+    padding-bottom: 2px;
+    margin:0;
+}
+.discrip{
+  width:200px;
+  
+  font-family: "Montserrat", sans-serif;
+  display: inline-block;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size:13px;
+  padding-bottom: 4px;;
+  line-height: 22px;
+  margin:0px;
+  padding-top:15px;
+  color: #999;
+
+}
+.price{
+  display: flex;
+  flex-direction:row ;
+  align-items: center;
+  
+
+}
+.orginalprice{
+  
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight:bold;
+  font-style:normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+    padding-top: 2px;
+    font-size:35px;
+    position: relative;
+    color: #2c4d33;
+
+}
+.discountprice{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size:14px;
+  position: absolute;
+  margin-left: 160px;;
+  color: #999;
+  text-decoration: line-through ;
+  
+
+
+}
+.strike-through {
+  content: "";
+  flex: 1; /* يجعل الخطين يملآن المساحة */
+  height: 2px; /* سمك الخط */
+  background: #999; /* لون الخط */
+  position: absolute; /* يجعل الخطوط تتداخل مع السعر */
+}
+
+.strike-through:first-child {
+  top: 50%; /* موقع الخط العلوي */
+  left: 0; /* يبدأ من اليسار */
+}
+
+.strike-through:last-child {
+  top: 50%; /* موقع الخط السفلي */
+  right: 0; /* يبدأ من اليمين */
+}
+.shoppingcart{
+ 
+
+}
+button{
+  background-color:  #2c4d33;
+ width:200px;
+ height: 40px;
+ border-radius: 10px;
+ color:white;
+ padding-right:2px;
+ margin: 0;
+ padding-bottom:2px ;
+ 
+}
+
+.shopp{
+  width:20px;
+  position: absolute;
+  padding-left:40px;
+  padding-top:8px;
+  font-family: "Montserrat", sans-serif;
+  align-content: center;
+  right:px;
+}
